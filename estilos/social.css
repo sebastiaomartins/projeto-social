@@ -1,0 +1,40 @@
+@charset "UFT-8";
+
+/* Configuaração globais */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Configuração do html e body */
+html, body{
+    height: 100vh;   /* Altura total do navegador */
+    width: 100vW;    /* Largura total do navegador */
+    background-color: black;
+}
+
+/* Configuração do body com a imagem de fundo */
+body{
+    background: url(../imagens/fundo-madeira.jpg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Configuração da main */
+main{
+    position: relative;
+    height: 100vh;
+}    
+
+/* Configuração do telefone */
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 565px;
+    width: 280px;
+    background: url('../imagens/frame-iphone2.png') no-repeat;
+}    
