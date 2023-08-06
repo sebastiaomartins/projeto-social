@@ -42,11 +42,11 @@ section#telefone{
 /* Configuração do iframe do telefone */
 iframe#tela{
     position: relative;
-    top: 73px;
+    top: 72px;
     left: 20px;
 
     width: 240px;
-    height: 423px;
+    height: 424px;
 }
 
 /* Configuração dos botões */
